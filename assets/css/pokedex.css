@@ -86,6 +86,11 @@
     border-radius: 1rem;
 }
 
+.pokemon:hover{
+    margin: .4rem;
+    cursor: pointer;
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -137,13 +142,19 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
+    padding: 15px 20px;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: 12px;
     color: #fff;
     background-color: #6c79db;
     border: none;
-    border-radius: 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.pagination button:hover{
+    background-color: #6c79dbbe;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
@@ -163,3 +174,75 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+
+.pokemon-section{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.pokemon-card{
+    display: flex;
+    background-color: #30A7D7;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.pokemon-cardL,
+.pokemon-cardR,
+.pokemon-type,
+.pokemon-weakness{
+    width: 50%;
+}
+
+.gender{
+    width: 40px;
+}
+
+.pokemon-cardL p,
+.pokemon-cardR p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.pokemon-cardL h3,
+.pokemon-cardR h3{
+    margin: 15px 0 5px 0;
+    color: #fff;
+}
+
+.pokemon-info{
+    padding: 10px;
+}
+
+.pokemon-weakness-type{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pokemon-type div p,
+.pokemon-weakness div p{
+    width: 30%;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    margin: 0;
+}
+
+.pokemon-type div,
+.pokemon-weakness div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+

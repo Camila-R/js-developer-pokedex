@@ -22,3 +22,7 @@ body {
         border-radius: 1rem;
     }
 }
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
