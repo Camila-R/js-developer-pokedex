@@ -2,8 +2,8 @@
 
 # Primeira VERSÃO
 Temos duas páginas HTML:
-> Home
-> Pokemon (Bulbasaur)
+- Home
+- Pokemon (Bulbasaur)
 
 Na página home, aparecem todos os Pokemons obtidos por meio da API.
 Na página Pokemon (Bulbasaur), apresenta apenas um pokemon no momento, o Bulbasaur com alguns detalhes sobre ele (fonte: https://www.pokemon.com/br/pokedex/bulbasaur).
